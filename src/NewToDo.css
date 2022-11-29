@@ -1,0 +1,64 @@
+@media only screen and (max-width:768px){
+    *{
+        height:100%;
+        width:100%;
+    }
+}
+
+body{
+    background-color: lightyellow;
+}
+
+#title {
+    text-align: center;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    margin-top: 50px;
+}
+
+form{
+    margin: auto;
+    margin-top: 50px;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    width: fit-content;
+}
+
+form > * {
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#txtbox{
+    min-width: 50%;
+}
+
+#todoForm{
+    margin: auto;
+}
+
+.todo_div {
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+.rm_button{
+    background-color: red;
+    color: white;
+}
+
+.done_button{
+    background-color: green;
+    color: white;
+}
+
+.todo_div > * {
+    padding: 10px;
+    display: inline-block;
+}
+
+ul{
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
